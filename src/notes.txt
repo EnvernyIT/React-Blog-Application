@@ -1,0 +1,36 @@
+<h1>{ title }</h1>
+<p>Liked { likes } times</p>
+
+<p>{ 10 }</p>
+<p>{ "Hello Enverny"} </p>
+<p>{ [1,2,3,4,5] }</p>
+<p>{ Math.random() * 10 }</p>
+
+<a href= {link}>Google</a>
+
+const title = 'Welcome To The New Blog';
+const likes = 50;
+const link = "http://www.google.com"
+
+
+Voor het gebruik van de style binnen component is het style geven tussen bv <a ....></a>
+hierin zet je het volgende
+style={{
+                    color: "white",
+                    backgroundColor: "#f1356d",
+                    borderRadius: '8px'
+                }}
+
+
+
+    const [name, setName] = useState('mario');
+    const [age, setAge] = useState(25)
+
+    const handleClick = () => {
+        setName('luigi');
+        setAge(30);
+    }
+
+            <p>{name} is {age} years old</p>
+            <button onClick={handleClick}>Click Me</button>
+

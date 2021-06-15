@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "Welcome Party!",
+      "body": "lorem ipsum....",
+      "author": "enverny",
+      "id": 2
+    },
+    {
+      "title": "Web Tools",
+      "body": "lorem ipsum....",
+      "author": "mario",
+      "id": 3
+    },
+    {
+      "title": "Internet Tools",
+      "body": "lorem ipsum....",
+      "author": "James",
+      "id": 4
+    },
+    {
+      "title": "BootCamps",
+      "body": "lorem ipsum....",
+      "author": "enverny",
+      "id": 5
+    },
+    {
+      "title": "Batman",
+      "body": "lorem ipsum",
+      "author": "mario",
+      "id": 6
+    }
+  ]
+}
